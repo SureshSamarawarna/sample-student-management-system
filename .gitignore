@@ -1,4 +1,4 @@
-.parcel-cache
-.sass-cache
+.parcel-cache/
+.sass-cache/
 dist/
-node_modules
+node_modules/

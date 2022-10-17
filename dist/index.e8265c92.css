@@ -1,13 +1,9 @@
-h1 {
-  color: #00ff37;
-}
-
-.col-id, .col-contact {
-  width: 75px;
-}
-
 table td:first-child, table th:first-child, table td:last-child {
   text-align: center;
+}
+
+table td, table th {
+  vertical-align: middle;
 }
 
 table td:last-child {
@@ -20,6 +16,18 @@ table td:last-child i:hover {
 
 table tbody tr {
   cursor: pointer;
+}
+
+.col-id {
+  width: 70px;
+}
+
+.col-contact {
+  width: 150px;
+}
+
+.col-remove {
+  width: 70px;
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */
