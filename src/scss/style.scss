@@ -1,0 +1,29 @@
+h1{
+    color: rgb(0, 255, 55);
+}
+
+
+.col-id{
+    width: 75px;
+}
+.col-contact{
+    width: 75px;
+}
+table{
+    td:first-child,
+    th:first-child,
+    td:last-child{
+        text-align: center;
+    }
+    td:last-child{
+        font-size: 24px;
+        i:hover{
+            color: red;
+        }
+    }
+   
+    tbody tr{
+        cursor: pointer;
+    }
+    
+}

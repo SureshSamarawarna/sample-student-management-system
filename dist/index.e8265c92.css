@@ -1,0 +1,25 @@
+h1 {
+  color: #00ff37;
+}
+
+.col-id, .col-contact {
+  width: 75px;
+}
+
+table td:first-child, table th:first-child, table td:last-child {
+  text-align: center;
+}
+
+table td:last-child {
+  font-size: 24px;
+}
+
+table td:last-child i:hover {
+  color: red;
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.e8265c92.css.map */

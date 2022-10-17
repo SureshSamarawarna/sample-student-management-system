@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,EAAE,GAAG,QAAQ,CAAC,cAAc,CAAC,IAAI,CAAC,AAAC;AAEzC,EAAE,CAAC,KAAK,CAAC,eAAe,GAAG,CAAC,GAAG,CAAC,CAAC","sources":["src/js/project-2.js"],"sourcesContent":["const h1 = document.getElementById('h1');\n\nh1.style.backgroundColor = `red`;\n"],"names":[],"version":3,"file":"index.c6703495.js.map","sourceRoot":"/__parcel_source_root/"}
