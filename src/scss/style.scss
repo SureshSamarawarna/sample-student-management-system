@@ -1,7 +1,18 @@
-
-
 table {
-    td:first-child, 
+    &.empty tfoot{
+        display: table-footer-group;
+    }
+
+    tfoot{
+        display: none;
+    }
+
+    tbody tr.selected{
+        background-color: lightskyblue;
+        border-radius: 5px;
+    }
+
+    td:first-child,
     th:first-child,
     td:last-child {
         text-align: center;
@@ -34,4 +45,18 @@ table {
 
 .col-remove {
     width: 70px
+}
+
+@media all and (min-width: 1200px){
+    #wrapper{
+        border-left: 1px solid lightgray;
+        max-height: calc(100vh - 8rem);
+        overflow: hidden auto;
+    }
+
+    table thead{
+        background-color: white;
+        position: sticky;
+        top: 0;
+    }
 }
